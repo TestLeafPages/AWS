@@ -1,0 +1,35 @@
+Hi Team, 
+
+EC2 Linux Assignment - login as IAM user check you have following policies (AdminisratorAccess)
+
+Choose any one region - eg. mumbai, singapore
+
+1. Launch *Amazon Linux 2 AMI (HVM)*, SSD Volume Type [Free Tier]
+2. Choose Instance Type as t2.micro, 
+3. Create a new KeyPair for Linux and download it
+4. Configure Security Group to allow ports no (SSH-22, HTTP-80) and set Source to anywhere 
+5. Confirm the Linux is up and running in Dashboard
+
+Process to connect Ec2 instance
+
+1. open command line type the following command 
+
+   Syntax: ssh -i "path of pem file/pemfile.pem" ec2-user@public-ip
+
+   EG: ssh -i test.pem ec2-user@13.121.346.124
+
+Run following commands one by one to install apache 
+
+sudo -i
+yum update -y
+yum install -y httpd
+systemctl start httpd
+systemctl enable httpd
+cd /var/www/html
+echo "<h1>Hello World from EC2 Linux Instance $(hostname -f)</h1>" > index.html
+
+Finally, go the public ip from your chrome
+
+http://<your linux public ip>  Eg. http://13.45.67.89
+
+That confirms you apache httpd is up and running in Linux. 
