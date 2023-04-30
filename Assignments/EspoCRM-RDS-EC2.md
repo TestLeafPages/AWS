@@ -45,10 +45,10 @@ In config file find the **<Directory "/var/www/html">** and change **AllowOverri
 	chmod -R 777 EspoCRM-5.8.2
 	```
 
-Finally, go the public ip  from your browser.  http://<your linux public ip>/<Your CRM folder>  eg: http://13.23.24.25/EspoCRM-5.8.2  you should see CRM installation page
+Finally, go the public ip  from your browser.  http://public-ip/app-code-folder eg: http://13.23.24.25/EspoCRM-5.8.2  you should see CRM installation page
 
 8. Fill all mandatory files, Database(RDS details) config, Admin Login.  
-9. Once installation is done. Login to your new CRM. URL: "http://<IPv4 public address>/EspoCRM-5.8.2" .....  eg: http://13.23.24.25/EspoCRM-5.8.2
+9. Once installation is done. Login to your new CRM. URL: "http://public-ip/EspoCRM-5.8.2" .....  eg: http://13.23.24.25/EspoCRM-5.8.2
 
 CRM installation steps:  https://www.espocrm.com/documentation/administration/installation
 
