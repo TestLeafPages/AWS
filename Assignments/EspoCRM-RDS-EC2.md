@@ -38,10 +38,12 @@ In config file find the **<Directory "/var/www/html">** and change **AllowOverri
 
 7. Run Following command to download CRM code to html folder 
 
+	```
 	cd /var/www/html
 	wget "https://www.espocrm.com/downloads/EspoCRM-5.8.2.zip"
 	unzip EspoCRM-5.8.2.zip
 	chmod -R 777 EspoCRM-5.8.2
+	```
 
 Finally, go the public ip  from your browser.  http://<your linux public ip>/<Your CRM folder>  eg: http://13.23.24.25/EspoCRM-5.8.2  you should see CRM installation page
 
