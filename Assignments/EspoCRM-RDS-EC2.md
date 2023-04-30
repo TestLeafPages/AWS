@@ -1,10 +1,10 @@
-*Hands on -1*
+**Hands on -1**
 
-Find the below given Steps to install Apache + PHP + CRM app code + RDS
+Find the below given Steps to install **Apache + PHP + CRM app code + RDS**
 
 Step 1: Create an IAM user or use Existing IAM account
 
-Step 2: Launch EC2 'Amazon Linux 2 AMI' & Create a *RDS MySQL(5.7)* DB Instance. Note Database name, HostName, UserName, Password
+Step 2: Launch EC2 **Amazon Linux 2 AMI** & Create a **RDS MySQL(5.7)** DB Instance. Note Database name, HostName, UserName, Password
 
 Step 3: Run the below command to install Apache server
 
@@ -18,23 +18,23 @@ connect to Ec2 Linux sever, open command line and Run the below commands
 
 4. Run the below command to install PHP
 
-```
+	```
 	sudo amazon-linux-extras install php7.2
 	yum install php-mbstring
 	yum-config-manager --enable remi-php72
 	yum install php-pecl-zip
 	yum install php-gd	
-```
+	```
 
-*Reboot EC2 Instance* -> select instance -> Instance state -> reboot
+**Reboot EC2 Instance** -> select instance -> Instance state -> reboot
 
-5. Go to config file by using following command: *nano /etc/httpd/conf/httpd.conf*
+5. Go to config file by using following command: **nano /etc/httpd/conf/httpd.conf**
 
-In config file find the *<Directory "/var/www/html">* and change *AllowOverride None* to *AllowOverride All*
+In config file find the **<Directory "/var/www/html">** and change **AllowOverride None** to **AllowOverride All**
 
 6. Stop and start apache :
-	- *systemctl stop httpd*
-	- *systemctl start httpd*
+	- **systemctl stop httpd**
+	- **systemctl start httpd**
 
 7. Run Following command to download CRM code to html folder 
 
