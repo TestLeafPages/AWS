@@ -29,7 +29,7 @@ Get windows server password from -> connect -> RDP client -> get Password
 *to unzip use tool : https://www.7-zip.org/*
 
 10. Unzip(7zip) the downloaded app code and move to following path : **"C:\xampp\htdocs" - eg: "C:\xampp\htdocs\<YOUR APP CODE FOLDER NAME>"**
-11. Open browser in local system  Navigate to **"http://<IPv4 public address>/<YOUR APP CODE FOLDER NAME>"** - you should see Wordpress installation page
+11. Open browser in local system  Navigate to http://<IPv4 public address>/<YOUR APP CODE FOLDER NAME> - you should see Wordpress installation page
 12. Full the mandatory files such as, Admin Logins, Database config.
 13. Wait for few minutes to complete installation. 
-14. Once installation is done. open URL: "http://<IPv4 public address>/<YOUR APP CODE FOLDER NAME>". 
+14. Once installation is done. open URL: http://<IPv4 public address>/<YOUR APP CODE FOLDER NAME>. 
