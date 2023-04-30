@@ -14,9 +14,9 @@ Get windows server password from -> connect -> RDP client -> get Password
 3. Connect Server using RDP
 4. Download and install Xampp server(apache+php package) from below url
 ```
-	Download Xampp: https://altushost-swe.dl.sourceforge.net/project/xampp/XAMPP%20Windows/7.2.28/xampp-portable-windows-x64-7.2.28-0-VC15-installer.exe
-	installation steps:  https://www.wikihow.com/Install-XAMPP-for-Windows
-	Start apache in xampp.
+Download Xampp: https://altushost-swe.dl.sourceforge.net/project/xampp/XAMPP%20Windows/7.2.28/xampp-portable-windows-x64-7.2.28-0-VC15-installer.exe
+installation steps:  https://www.wikihow.com/Install-XAMPP-for-Windows
+Start apache in xampp.
 ```
 5. After installation open Xampp Control Panel and start the Apache server. 
 6. Go to windows defender firewall with advanced settings, in inbound rule allow port 80.
