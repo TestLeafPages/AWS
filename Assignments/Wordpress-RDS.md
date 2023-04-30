@@ -21,7 +21,7 @@ Get windows server password from -> connect -> RDP client -> get Password
 5. After installation open Xampp Control Panel and start the Apache server. 
 6. Go to windows defender firewall with advanced settings, in inbound rule allow port 80.
 7. Open browser in local system
-8. Navigate to "http://<IPv4 public address>"  - you should see xampp welcome dashboard
+8. Navigate to http://public-ip/  - you should see xampp welcome dashboard
 9. go to instance and Download CRM app code from below given URL.
 
 	https://wordpress.org/wordpress-5.8.zip
