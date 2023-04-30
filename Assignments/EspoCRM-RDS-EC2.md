@@ -18,11 +18,13 @@ connect to Ec2 Linux sever, open command line and Run the below commands
 
 4. Run the below command to install PHP
 
+```
 	sudo amazon-linux-extras install php7.2
 	yum install php-mbstring
 	yum-config-manager --enable remi-php72
 	yum install php-pecl-zip
-	yum install php-gd
+	yum install php-gd	
+```
 
 *Reboot EC2 Instance* -> select instance -> Instance state -> reboot
 
